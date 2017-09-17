@@ -5,5 +5,8 @@
   "main": "lib",
   "repository": "FujiHaruka/side-eff",
   "author": "FujiHaruka",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "asleep": "^1.0.3"
+  }
 }

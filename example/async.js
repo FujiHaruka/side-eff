@@ -1,4 +1,5 @@
-const SideEff = require('side-eff')
+const SideEff = require('../lib')
+// const SideEff = require('side-eff')
 const fs = require('fs')
 const {promisify} = require('util')
 const writeFileAsync = promisify(fs.writeFile)
