@@ -1,9 +1,9 @@
-const SideEffect = require('side-effect')
+const SideEff = require('side-eff')
 
 // Global variable
 let message = ''
 
-class Message extends SideEffect {
+class Message extends SideEff {
   // Define method with side effect by overiding 'affect'
   affect (payload) {
     // Change global variable's value

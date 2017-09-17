@@ -1,9 +1,9 @@
-const SideEffect = require('side-effect')
+const SideEff = require('side-eff')
 const fs = require('fs')
 const {promisify} = require('util')
 const writeFileAsync = promisify(fs.writeFile)
 
-class AppendLog extends SideEffect {
+class AppendLog extends SideEff {
   async affectAsync (payload) {
     await writeFileAsync('debug.log', payload + '\n', {flag: 'a'})
   }
